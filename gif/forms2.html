@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms2</title>
+<link rel="stylesheet" href="../gif/css/style.css">
+
+
+</head>
+<body>
+  <h1 class="paragraph" >Формы</h1>
+  <h2 class="paragraph" >Сложная форма</h2>
+
+  <form>
+    <p>
+
+       <label for="username">Имя пользователя:</label>
+       <br>
+        <input id="username" type="text" placeholder="Введите Имя" required>
+
+
+    </p>
+    <p>
+
+       <label for="useremail">Введите почту</label>
+       <br>
+        <input id="useremail" type="email" placeholder="email" required>
+
+
+    </p>
+
+    <p>
+
+        <label for="userdate">Выбрать дату</label>
+        <br>
+        <input id="userdate" type="date" required>
+        <br>
+
+    </p>
+
+    <p>
+
+        <label for="password">Пароль:</label>
+        <br>
+        <input id="password" type="password">
+        <br>
+
+
+    </p>
+
+
+
+
+
+
+
+    
+
+    <h4>Чекбоксы</h4>
+
+    <h5>Выберите питание</h5>
+
+    <p>
+        <label for="breakfast">Завтрак</label>
+        <input id="breakfast" type="checkbox">
+        <br>
+      
+        <label for="dinner">Обед</label>
+        <input id="dinner" type="checkbox">
+        <br>
+
+        <label for="diner">Ужин</label>
+        <input id="diner" type="checkbox">
+        <br>
+
+    </p>
+
+   
+      <h5>Выберите напиток</h5>
+    <p>   
+        <label for="tea">Чай</label>
+        <input id="tea" type="radio" name="drink">
+         <br>
+
+        <label for="cafe">Кофе</label>
+        <input id="cafe" type="radio" name="drink">
+        <br>
+
+
+        <label for="cap">Сок</label>
+        <input id="cap" type="radio" name="drink">
+    </p>
+
+        <h5>Город:</h5>
+      <p>
+        <label for="select-city">Выберите город</label>
+        <br>
+        <select name="select-city" id="select-city">
+          <option value="kazan">казань</option>
+          <option value="moscow">москва</option>
+          <option value="izhevsk" selected>ижевск</option>
+          <option value="kirov">киров</option>
+          <option value="yoshkar-ola">йошкар-ола</option>
+        </select>
+        <br><br>
+      </p>
+        <label for="file">Прикрепите файл</label>
+        <br>
+        <input id="file" type="file">
+        <br>
+    
+        <input type="submit">
+
+
+
+  </form>
+
+  
+</body>
+</html>
